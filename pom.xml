@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.scribassu</groupId>
 	<artifactId>tracto-dto</artifactId>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<name>tracto-dto</name>
 	<description>Tracto DTO</description>
 	<packaging>jar</packaging>
@@ -12,8 +12,6 @@
 	<properties>
         <java.version>11</java.version>
         <maven.compiler.release>11</maven.compiler.release>
-		<lombok.version>1.18.24</lombok.version>
-		<tracto-domain.version>1.0.13</tracto-domain.version>
 	</properties>
 
 	<repositories>
@@ -30,17 +28,6 @@
 	</pluginRepositories>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>${lombok.version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.github.ScribaSSU</groupId>
-			<artifactId>tracto-domain</artifactId>
-			<version>${tracto-domain.version}</version>
-		</dependency>
 	</dependencies>
 
 	<build>
